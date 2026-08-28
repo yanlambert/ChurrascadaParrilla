@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Churrascada Parrilla Castelanea | Carnes e Parrilla em Petrópolis</title>
+<meta name="description" content="Churrascada Parrilla Castelanea em Petrópolis. Carnes, parrilla, hambúrgueres, cervejas e uma experiência gastronômica no bairro Castelânea.">
+<meta name="keywords" content="Churrascada Parrilla Castelanea, Churrascaria em Petrópolis, Parrilla em Petrópolis, Restaurante em Castelânea, Carnes em Petrópolis, Rodízio em Petrópolis, Hambúrguer em Petrópolis, Churrascaria Castelânea, Restaurante Castelânea Petrópolis">
+<meta property="og:title" content="Churrascada Parrilla Castelanea | Carnes e Parrilla em Petrópolis">
+<meta property="og:description" content="Especialistas em oferecer as melhores carnes com a melhor experiência. Fogo, carne e experiência no coração de Petrópolis.">
+<meta property="og:type" content="restaurant.restaurant">
+<link rel="icon" href="images/logo/logo-placeholder.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Churrascada Parrilla Castelanea",
+  "servesCuisine": ["Churrascaria", "Parrilla", "Hambúrguer"],
+  "priceRange": "R$ 60–140",
+  "telephone": "+55 24 2245-6380",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. Cristovão Colombo, 125 - Castelânea",
+    "addressLocality": "Petrópolis",
+    "addressRegion": "RJ",
+    "postalCode": "25640-322",
+    "addressCountry": "BR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "471"
+  },
+  "sameAs": ["https://www.instagram.com/churrascadaparrillapetropolis/"]
+}
+</script>
+</head>
+<body>
+
+<!-- Indicador de rolagem estilo termômetro de carne (elemento de assinatura) -->
+<aside class="ember-gauge" aria-hidden="true">
+  <div class="ember-gauge__track">
+    <div class="ember-gauge__fill" id="emberFill"></div>
+  </div>
+  <ul class="ember-gauge__ticks">
+    <li data-at="0">NA BRASA</li>
+    <li data-at="33">AO PONTO</li>
+    <li data-at="66">MAL PASSADO</li>
+    <li data-at="100">CRU</li>
+  </ul>
+</aside>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a href="#inicio" class="brandmark" aria-label="Churrascada Parrilla Castelanea — página inicial">
+      <span class="brandmark__flame" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c1 3-3 4-3 7.5A3.5 3.5 0 0 0 12.5 13c2 0 3.5-1.5 3.5-3.5 0-1-.4-1.7-.8-2.3 1.8 1 3.3 3 3.3 5.8a6.5 6.5 0 0 1-13 0C5.5 8.5 9 7 12 2z" fill="currentColor"/></svg>
+      </span>
+      <span class="brandmark__text">
+        <span class="brandmark__line1">Churrascada</span>
+        <span class="brandmark__line2">Parrilla</span>
+        <span class="brandmark__line3">Castelanea</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <ul class="main-nav__list" id="navList"></ul>
+    </nav>
+
+    <div class="site-header__actions">
+      <a href="#reservas" class="btn btn--ember btn--sm">Reserve sua Mesa</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="inicio">
+  <div class="hero__media">
+    <img src="images/hero/hero-brasa.svg" alt="Carne grelhada na parrilla, sobre a brasa, na Churrascada Parrilla Castelanea" loading="eager">
+    <div class="hero__scrim"></div>
+    <div class="hero__embers" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="container hero__content">
+    <p class="eyebrow eyebrow--light reveal">Petrópolis · Castelânea</p>
+    <h1 class="hero__title reveal">Fogo, carne <br>e experiência.</h1>
+    <p class="hero__subtitle reveal">Uma experiência de parrilla no coração de Petrópolis.</p>
+    <p class="hero__lede reveal">Especialistas em oferecer as melhores carnes com a melhor experiência.</p>
+
+    <div class="hero__actions reveal">
+      <a href="#cardapio" class="btn btn--ember">Ver Cardápio</a>
+      <a href="#reservas" class="btn btn--outline">Reserve sua Mesa</a>
+    </div>
+
+    <ul class="hero__stats reveal">
+      <li><strong>★ 4,5</strong><span>no Google</span></li>
+      <li><strong>🥩</strong><span>Carnes na parrilla</span></li>
+      <li><strong>🔥</strong><span>Experiência gastronômica</span></li>
+    </ul>
+  </div>
+
+  <a href="#a-churrascada" class="hero__scroll" aria-label="Rolar para a próxima seção">
+    <span></span>
+  </a>
+</section>
+
+<!-- ======================= SOBRE ======================= -->
+<section class="about" id="a-churrascada">
+  <div class="container about__grid">
+    <div class="about__text reveal">
+      <p class="eyebrow">A Churrascada</p>
+      <h2 class="section-title">Mais que uma <em>churrascaria.</em></h2>
+      <p class="about__lede">A Churrascada Parrilla Castelanea une carnes, fogo e uma experiência gastronômica em um ambiente agradável e bem decorado em Petrópolis.</p>
+
+      <ul class="about__tags">
+        <li>Carnes</li>
+        <li>Parrilla</li>
+        <li>Ambiente</li>
+        <li>Atendimento</li>
+        <li>Cervejas</li>
+        <li>Experiência gastronômica</li>
+      </ul>
+
+      <div class="about__meta">
+        <div>
+          <strong>4,5 ★</strong>
+          <span>471 avaliações no Google</span>
+        </div>
+        <div>
+          <strong>R$ 60–140</strong>
+          <span>por pessoa</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__media reveal">
+      <img src="images/hero/about-carne.svg" alt="Preparo de carne na parrilla da Churrascada" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ======================= DIFERENCIAIS ======================= -->
+<section class="differentials">
+  <div class="container">
+    <div class="differentials__grid" id="differentialsGrid"></div>
+  </div>
+</section>
+
+<!-- ======================= CARNES (destaque) ======================= -->
+<section class="meats" id="carnes">
+  <div class="meats__texture" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head section-head--light reveal">
+      <p class="eyebrow eyebrow--light">Carnes &amp; Parrilla</p>
+      <h2 class="section-title section-title--light">O fogo é o nosso <em>ingrediente.</em></h2>
+    </div>
+
+    <div id="meatsGrid" class="meats__grid reveal"></div>
+
+    <div id="meatsEmpty" class="empty-state reveal" hidden>
+      <p>O cardápio completo de carnes está em atualização.</p>
+      <span>Assim que os cortes e preços oficiais forem confirmados, esta seção será preenchida — sem pratos ou valores inventados.</span>
+      <a href="#reservas" class="btn btn--outline btn--sm">Fale conosco</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CARDÁPIO ======================= -->
+<section class="menu" id="cardapio">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Cardápio</p>
+      <h2 class="section-title">Nosso <em>cardápio.</em></h2>
+      <p class="section-lede">Navegue pelas categorias e conheça o que preparamos na brasa — do primeiro corte ao chopp gelado.</p>
+    </div>
+
+    <div class="menu__tabs reveal" id="menuTabs" role="tablist" aria-label="Categorias do cardápio"></div>
+
+    <div id="menuGrid" class="menu__grid reveal"></div>
+
+    <div id="menuEmpty" class="empty-state reveal">
+      <p>O cardápio oficial completo ainda está sendo cadastrado.</p>
+      <span>Pratos, ingredientes e preços serão publicados exatamente como fornecidos pela Churrascada — nada é inventado neste site.</span>
+      <a href="tel:+552422456380" class="btn btn--ember btn--sm">Ligar e consultar o cardápio</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= MINI-HAMBÚRGUERES ======================= -->
+<section class="burger-experience" id="mini-hamburgueres">
+  <div class="container burger-experience__grid">
+    <div class="burger-experience__media reveal">
+      <img src="images/hamburgueres/mini-burger.svg" alt="Mini-hambúrgueres da Churrascada Parrilla Castelanea" loading="lazy">
+    </div>
+    <div class="burger-experience__text reveal">
+      <p class="eyebrow">Uma experiência à parte</p>
+      <h2 class="section-title">Pequenos no tamanho. <br><em>Grandes no sabor.</em></h2>
+      <p class="section-lede">O rodízio de mini-hambúrgueres é uma das experiências mais lembradas por quem visita a Churrascada — servido direto à mesa, rodada após rodada.</p>
+      <blockquote class="pull-quote">"Pedimos o rodízio de mini hambúrguer, muito gostoso, além da entrada ser ótima!"</blockquote>
+      <a href="#reservas" class="btn btn--ember">Quero Provar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CERVEJAS & CHOPP ======================= -->
+<section class="drinks" id="bebidas">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Bar da Churrascada</p>
+      <h2 class="section-title">Para acompanhar <em>a brasa.</em></h2>
+      <p class="section-lede" id="drinksLede"></p>
+    </div>
+
+    <div class="drinks__grid reveal">
+      <div class="drink-card">
+        <img src="images/bebidas/bebida-1.svg" alt="Cerveja artesanal servida na Churrascada" loading="lazy">
+        <h3>Cervejarias de Petrópolis</h3>
+        <p>Boa variedade de rótulos, incluindo chopp de duas cervejarias locais.</p>
+      </div>
+      <div class="drink-card">
+        <img src="images/bebidas/bebida-2.svg" alt="Chopp gelado na Churrascada" loading="lazy">
+        <h3>Chopp na Casa</h3>
+        <p>Sempre gelado, para acompanhar cada corte que sai da parrilla.</p>
+      </div>
+    </div>
+    <div class="empty-state empty-state--inline reveal">
+      <span>Rótulos, marcas e preços específicos serão publicados assim que o cardápio oficial de bebidas for enviado.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= EXPERIÊNCIAS ======================= -->
+<section class="experiences" id="experiencias">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Viva a Churrascada</p>
+      <h2 class="section-title">Escolha sua <em>experiência.</em></h2>
+    </div>
+    <div id="experiencesGrid" class="experiences__grid reveal"></div>
+  </div>
+</section>
+
+<!-- ======================= GALERIA ======================= -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-head section-head--split reveal">
+      <div>
+        <p class="eyebrow">No Instagram</p>
+        <h2 class="section-title">Galeria.</h2>
+      </div>
+      <a href="https://www.instagram.com/churrascadaparrillapetropolis/" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Ver no Instagram</a>
+    </div>
+
+    <div class="gallery__filters reveal" id="galleryFilters"></div>
+    <div class="gallery__grid reveal" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ======================= AVALIAÇÕES ======================= -->
+<section class="reviews" id="avaliacoes">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow">Reputação</p>
+      <h2 class="section-title">Quem já viveu a experiência, <em>recomenda.</em></h2>
+      <div class="reviews__score">
+        <strong>4,5</strong>
+        <div>
+          <span class="stars">★★★★★</span>
+          <span>471 avaliações no Google</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="reviewsGrid" class="reviews__grid reveal"></div>
+
+    <ul id="pointsList" class="reviews__points reveal"></ul>
+  </div>
+</section>
+
+<!-- ======================= RESERVAS ======================= -->
+<section class="reservations" id="reservas">
+  <div class="reservations__texture" aria-hidden="true"></div>
+  <div class="container reservations__content reveal">
+    <h2 class="section-title section-title--light">Seu lugar à mesa <em>está esperando.</em></h2>
+    <p>Reúna quem você gosta e venha viver uma experiência de parrilla em Petrópolis.</p>
+    <div class="reservations__actions">
+      <a href="tel:+552422456380" class="btn btn--ember btn--lg">Ligar Agora · (24) 2245-6380</a>
+      <a href="#contato" class="btn btn--outline btn--lg btn--light">Reserve sua Mesa</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= LOCALIZAÇÃO ======================= -->
+<section class="location" id="localizacao">
+  <div class="container location__grid">
+    <div class="location__info reveal">
+      <p class="eyebrow">Onde estamos</p>
+      <h2 class="section-title">Venha viver <em>a experiência.</em></h2>
+      <address>
+        R. Cristovão Colombo, 125<br>
+        Castelânea<br>
+        Petrópolis - RJ · 25640-322
+      </address>
+      <p class="location__phone">(24) 2245-6380</p>
+
+      <div class="location__hours">
+        <strong>Aberto até 00:00</strong>
+        <span>Consulte nossos horários atualizados.</span>
+      </div>
+
+      <div class="location__actions">
+        <a href="https://www.google.com/maps/search/?api=1&query=R.+Cristov%C3%A3o+Colombo,+125+-+Castel%C3%A2nea,+Petr%C3%B3polis+-+RJ,+25640-322" target="_blank" rel="noopener" class="btn btn--ember btn--sm">Como Chegar</a>
+        <a href="tel:+552422456380" class="btn btn--outline btn--sm">Ligar</a>
+        <a href="#reservas" class="btn btn--outline btn--sm">Reserve sua Mesa</a>
+      </div>
+    </div>
+
+    <div class="location__map reveal">
+      <iframe
+        title="Mapa — Churrascada Parrilla Castelanea"
+        src="https://www.google.com/maps?q=R.+Cristov%C3%A3o+Colombo,+125+-+Castel%C3%A2nea,+Petr%C3%B3polis+-+RJ,+25640-322&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTATO ======================= -->
+<section class="contact" id="contato">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow">Fale com a Churrascada</p>
+      <h2 class="section-title">Contato.</h2>
+    </div>
+
+    <div class="contact__grid reveal">
+      <a class="contact-card" href="https://www.instagram.com/churrascadaparrillapetropolis/" target="_blank" rel="noopener">
+        <span class="contact-card__icon">◎</span>
+        <strong>Instagram</strong>
+        <span>@churrascadaparrillapetropolis</span>
+      </a>
+      <a class="contact-card" href="tel:+552422456380">
+        <span class="contact-card__icon">☏</span>
+        <strong>Telefone</strong>
+        <span>(24) 2245-6380</span>
+      </a>
+      <a class="contact-card" href="#localizacao">
+        <span class="contact-card__icon">⚑</span>
+        <strong>Localização</strong>
+        <span>R. Cristovão Colombo, 125 — Castelânea</span>
+      </a>
+      <a class="contact-card" href="#cardapio">
+        <span class="contact-card__icon">▤</span>
+        <strong>Cardápio</strong>
+        <span>Carnes, parrilla, hambúrgueres e mais</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <span class="brandmark__line1">Churrascada Parrilla</span>
+      <span class="brandmark__line3">Castelanea</span>
+      <p>Fogo, carne e experiência no coração de Petrópolis.</p>
+      <div class="site-footer__social">
+        <a href="https://www.instagram.com/churrascadaparrillapetropolis/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="tel:+552422456380" aria-label="Telefone">Telefone</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=R.+Cristov%C3%A3o+Colombo,+125+-+Castel%C3%A2nea,+Petr%C3%B3polis+-+RJ,+25640-322" target="_blank" rel="noopener" aria-label="Google Maps">Google Maps</a>
+        <a href="#reservas" aria-label="Reservas">Reservas</a>
+      </div>
+    </div>
+
+    <nav class="site-footer__links" aria-label="Links do rodapé">
+      <ul id="footerNav"></ul>
+    </nav>
+
+    <div class="site-footer__contact">
+      <p>R. Cristovão Colombo, 125 - Castelânea<br>Petrópolis - RJ</p>
+      <p>(24) 2245-6380</p>
+    </div>
+  </div>
+
+  <div class="container site-footer__bottom">
+    <p>© 2026 Churrascada Parrilla Castelanea. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante -->
+<a href="tel:+552422456380" class="floating-cta" aria-label="Ligar agora para a Churrascada Parrilla Castelanea">
+  <span class="floating-cta__icon">☏</span>
+  <span class="floating-cta__label">Ligar Agora</span>
+</a>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

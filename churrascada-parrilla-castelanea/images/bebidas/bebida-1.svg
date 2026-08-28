@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1a18"/>
+      <stop offset="100%" stop-color="#0d0c0b"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#e85d25" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="900" fill="url(#g)"/>
+  <rect width="700" height="900" fill="url(#grid)"/>
+  <circle cx="350.0" cy="378.0" r="63.0" fill="none" stroke="#e85d25" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M340.0 384.0 q10 -22 0 -34 q10 12 0 34" fill="#e85d25" fill-opacity="0.55"/>
+  <text x="50%" y="490.0" font-family="Arial, sans-serif" font-size="22.400000000000002" fill="#f5f2ec" text-anchor="middle" font-weight="600" letter-spacing="1">IMAGEM A SUBSTITUIR</text>
+  <text x="50%" y="510.0" font-family="Arial, sans-serif" font-size="16.8" fill="#8b8983" text-anchor="middle">Cerveja / chopp artesanal</text>
+</svg>
